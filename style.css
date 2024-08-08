@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-bg);
+  font-family: var(--font-family);
+}
+
+:root {
+  --font-family: "Karla", sans-serif;
+  --body-bg: #1e1f25;
+  --font-color: #fff;
+}
+
+h1,
+h2 {
+  color: var(--font-color);
+  margin: 1em;
+}
+
+h1 span {
+  font-size: 1em;
+  margin-right: 0.2em;
+  color: #87ceeb;
+}
+
+ol {
+  color: #f0f0f0;
+  margin: 1em;
+}
+
+ol li {
+  font-size: 1.5em;
+}
+
+ol li a {
+  text-decoration: none;
+  margin-left: 0.5em;
+  color: #87ceeb;
+}
+
+ol li a:hover {
+  text-decoration: underline;
+}

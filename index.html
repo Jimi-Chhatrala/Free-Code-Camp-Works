@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeCodeCamp Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./data.js"></script>
+  </head>
+  <body>
+    <h1>
+      <span style="color: blue"
+        ><img src="./assets/images/freecodecamp-md.svg" alt="" /></span
+      >FreeCodeCamp Projects
+    </h1>
+    <h2>Responsive Web Design</h2>
+    <ol id="project-list"></ol>
+    <script>
+      let projectDataElement = "";
+
+      if (projectsData && projectsData.length > 0) {
+        projectsData.forEach((project) => {
+          let { title: projectTitle } = project;
+
+          projectDataElement += `<li><a href="https://jimi-chhatrala.github.io/Free-Code-Camp-Works/Responsive Web Design/${projectTitle}" target="_blank">${projectTitle}</a></li>`;
+        });
+      }
+
+      document.getElementById("project-list").innerHTML = projectDataElement;
+    </script>
+  </body>
+</html>

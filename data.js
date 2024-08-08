@@ -1,0 +1,11 @@
+const projectsData = [
+  {
+    title: "Learn HTML by Building a Cat Photo App",
+  },
+  {
+    title: "Learn Basic CSS by Building a Cafe Menu",
+  },
+  {
+    title: "Learn CSS Colors by Building a Set of Colored Markers",
+  },
+];
