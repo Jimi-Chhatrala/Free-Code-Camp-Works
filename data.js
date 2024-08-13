@@ -8,4 +8,7 @@ const projectsData = [
   {
     title: "Learn CSS Colors by Building a Set of Colored Markers",
   },
+  {
+    title: "Learn HTML Forms by Building a Registration Form",
+  },
 ];
