@@ -12,6 +12,9 @@ const projectsData = [
     title: "Learn HTML Forms by Building a Registration Form",
   },
   {
+    title: "Survey Form",
+  },
+  {
     title: "Learn the CSS Box Model by Building a Rothko Painting",
   },
 ];
